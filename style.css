@@ -43,8 +43,15 @@ h2{
     color: rgb(0,193,239);
 }
 
+.questions{
+    border-bottom: 2px solid rgba(5,4,194,0.6);
+    width: 45%;
+    padding-bottom: 13px;
+}
+
 .michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
-.kelly, .oscar{
+.kelly, .oscar, .gabe, .david, .robert, .charles, .holly, .meredith,
+.angela, .stanley, .jan, .erin, .darryl, .deangelo, .toby, .prison {
     position: relative;
     left: 26px;
     bottom: 77px;
