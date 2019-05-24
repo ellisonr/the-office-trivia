@@ -41,12 +41,12 @@ h2{
     font-family: 'Zilla Slab', serif;
     font-size: 25px;
     color: rgb(0,193,239);
+    text-align: center;
 }
 
 .questions{
     width: 45%;
     padding-bottom: 13px;
-    border-bottom: 3px solid rgba(5,4,194,0.6);
 }
 
 .michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
