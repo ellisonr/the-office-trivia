@@ -43,9 +43,11 @@ h2{
     color: rgb(0,193,239);
 }
 
-.michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan{
-    position: absolute;
-    left: 53px;
+.michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
+.kelly, .oscar{
+    position: relative;
+    left: 26px;
+    bottom: 77px;
 }
 
 input[type=radio]:checked + label>img {
