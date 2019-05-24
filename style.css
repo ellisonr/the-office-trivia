@@ -50,9 +50,7 @@ h2{
     border-bottom: 4px solid rgb(0,193,239);
 }
 
-.michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
-.kelly, .oscar, .gabe, .david, .robert, .charles, .holly, .meredith,
-.angela, .stanley, .jan, .erin, .darryl, .deangelo, .toby, .prison {
+.character {
     position: relative;
     left: 26px;
     bottom: 77px;
