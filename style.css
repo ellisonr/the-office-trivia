@@ -25,3 +25,30 @@ h2{
     font-size: 30px;
     letter-spacing: 1.5px;
 }
+
+.playing-area{
+    margin-left: 50px;
+}
+
+p{
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+
+.michael, .dwight, .andy, .jim{
+    position: absolute;
+    left: 53px;
+}
+
+input[type=radio]:checked + label>img {
+    border: 2px solid rgb(0,193,239);
+    box-shadow: 0 0 2px 2px white;
+  }
+
+input[type=radio] + label>img {
+    border: 1px solid white;
+    border-radius: 13px;
+    width: 90px;
+    height: 90px;
+    transition: 500ms all;
+  }

@@ -13,9 +13,39 @@
     <h2>who said it?</h2>
     
     <div class="playing-area">
-        <div class="blank-tiles"></div>
+    <form name="questions" class="questions">
+        <p>1. "Whenever I'm about to do something, I think,
+            <br> 'Would an idiot do that?' And if they do,
+            <br> I do not do that thing."</p>
+            <div class="options">
+            <input type="radio" class="michael" value="michael" name="character"/>
+            <label for="michael">
+                <img src="images/m-michaelscott.jpg"/>
+            </label>
+            </div>
+            <div class="options">
+            <input type="radio" class="dwight" value="dwight" name="character"/>
+            <label for="dwight">
+                <img src="images/d-dwightschrute.jpg"/>
+            </label>
+            </div>
+            <div class="options">
+            <input type="radio" class="jim" value="jim" name="character"/>
+            <label for="jim">
+                <img src="images/j-jimhalpert.png"/>
+            </label>
+            </div>
+            <div class="options">
+            <input type="radio" class="andy" value="andy" name="character"/>
+            <label for="andy">
+                <img src="images/a-andybernard.jpg"/>
+            </label>
+            </div>
+    </form>
     </div>
 
     <script src="./script.js"></script>
   </body>
 </html>
+
+<!-- radio button info: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio -->
