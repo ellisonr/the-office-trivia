@@ -13,8 +13,14 @@ I initially tried to make a hangman game. I spent many hours on it, but unfortun
 
 * The game is self-scoring. Once the submit button is clicked at the bottom, the user's score is displayed at the bottom of the screen.
 
+* The user's expertise ranking is also displayed below the score.
+
 ## Technologies Used
 
 * HTML
 * CSS
 * Javascript
+
+## How to play?
+
+Simply click on the circle inside the character who you think is the correct answer for the given question. Once completed, with all of the questions, click submit.
