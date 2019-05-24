@@ -47,6 +47,7 @@ h2{
 .questions{
     width: 45%;
     padding-bottom: 13px;
+    border-bottom: 4px solid rgb(0,193,239);
 }
 
 .michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
@@ -78,6 +79,7 @@ input[type=radio] + label>img {
     color:white;
     background-color: rgb(0,193,239);
     font-family: 'Zilla Slab', serif;
+    text-align: center;
 }
 
 /* below is from https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
