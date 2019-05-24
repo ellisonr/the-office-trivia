@@ -91,3 +91,10 @@ input[type=radio] + label>img {
     color: rgb(5,4,194);
     font-family: 'Zilla Slab', serif;
 }
+
+#ranking{
+    font-size: 20px;
+    margin: 15px auto;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+}
