@@ -22,4 +22,7 @@ if (q7 === "darryl"){correctAnswers ++}
 if (q8 === "deangelo"){correctAnswers ++}
 if (q9 === "toby"){correctAnswers ++}
 if (q10 === "gabe"){correctAnswers ++}
+
+document.getElementById("final-score").style.visibilty = "visible";
+document.getElementById("score").innerHTML = "You got "+correctAnswers+" out of 10!"
 }

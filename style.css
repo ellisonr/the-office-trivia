@@ -69,3 +69,23 @@ input[type=radio] + label>img {
     height: 90px;
     transition: 500ms all;
 }
+
+#submit{
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 25px auto;
+    color:white;
+    background-color: rgb(0,193,239)
+}
+
+/* below is from https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
+#submit:focus{
+    outline: 0;
+}
+
+#score{
+    font-size: 55px;
+    margin: 25px auto;
+    color: rgb(5,4,194);
+}
