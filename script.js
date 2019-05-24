@@ -10,6 +10,11 @@ function scoring(){
     var q8 = document.questions.q8.value
     var q9 = document.questions.q9.value
     var q10 = document.questions.q10.value
+    var q11 = document.questions.q11.value
+    var q12 = document.questions.q12.value
+    var q13 = document.questions.q13.value
+    var q14 = document.questions.q14.value
+    var q15 = document.questions.q15.value
     var correctAnswers = 0
 //if user pics the following answer for the following question, add to their correctAnswers score
 if (q1 === "dwight"){correctAnswers ++}
@@ -22,8 +27,13 @@ if (q7 === "darryl"){correctAnswers ++}
 if (q8 === "deangelo"){correctAnswers ++}
 if (q9 === "toby"){correctAnswers ++}
 if (q10 === "gabe"){correctAnswers ++}
+if (q11 === "jim"){correctAnswers ++}
+if (q12 === "date"){correctAnswers ++}
+if (q13 === "charles"){correctAnswers ++}
+if (q14 === "holly"){correctAnswers ++}
+if (q15 === "pam"){correctAnswers ++}
 document.getElementById("final-score").style.visibility="visible"
-document.getElementById("score").innerHTML = "You got "+correctAnswers+" out of 10!"
+document.getElementById("score").innerHTML = "You got "+correctAnswers+" out of 15!"
 alert(" ' 'You miss 100% of the shots you don't take.'\n            -Wayne Gretzky'\n                        -Michael Scott")
 }
 //----------------------------------------
@@ -31,7 +41,7 @@ alert(" ' 'You miss 100% of the shots you don't take.'\n            -Wayne Gretz
 // function scoring(){
 
 //     //if user pics the following answer for the following question, add to their correctAnswers score
-//     answers = ["dwight","ryan","creed","andy","michael","erin","darryl","deangelo","toby","gabe"];
+//     answers = ["dwight","ryan","creed","andy","michael","erin","darryl","deangelo","toby","gabe","jim","date","charles","holly","pam"];
 //     console.log(answers);
     
 //     for(let i =0;i<answers.length; i++){
