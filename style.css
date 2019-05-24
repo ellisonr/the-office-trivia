@@ -44,9 +44,9 @@ h2{
 }
 
 .questions{
-    border-bottom: 2px solid rgba(5,4,194,0.6);
     width: 45%;
     padding-bottom: 13px;
+    border-bottom: 3px solid rgba(5,4,194,0.6);
 }
 
 .michael, .dwight, .andy, .jim, .phyllis, .pam, .kevin, .ryan, .creed,
@@ -74,9 +74,10 @@ input[type=radio] + label>img {
     font-size: 30px;
     border-radius: 20px;
     border: none;
-    margin: 25px auto;
+    margin-top: 15px;
     color:white;
-    background-color: rgb(0,193,239)
+    background-color: rgb(0,193,239);
+    font-family: 'Zilla Slab', serif;
 }
 
 /* below is from https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
@@ -85,7 +86,8 @@ input[type=radio] + label>img {
 }
 
 #score{
-    font-size: 55px;
-    margin: 25px auto;
+    font-size: 40px;
+    margin: 15px auto;
     color: rgb(5,4,194);
+    font-family: 'Zilla Slab', serif;
 }
