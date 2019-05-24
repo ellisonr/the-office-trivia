@@ -3,7 +3,9 @@ The Office Trivia
 
 ## Why trivia?
 
-I initially tried to make a hangman game. I spent many hours on it, but unfortunately, I was unable to solve one of the last pieces of the puzzle. With time winding down and wanting to meet mvp, I made the decision to try my hand at creating a trivia game. This game is intended for fans of the NBC comedy called "The Office". It will test their knowledge on some common information and some obscure facts only the biggest fans will know.
+During the first 2.5-3 days of the allotted 3.5 days to work on Project #1, I was working on a The Office-themed hangman game. I started off strongly with my HTML and CSS and made good progress on the Javascript making the game function how I wanted it to. I was able to turn letters opaque and green or red once they were clicked (green for correct and red for incorrect). However, after several hours of tinkering with and dozens of iterations of the code, I was able to only solve my problem partially.
+
+With time winding down and wanting to meet mvp, I made the decision to try my hand at creating a trivia game. This game is intended for fans of the NBC comedy called "The Office". It will test their knowledge on some common information and some obscure facts only the biggest fans will know. In my opinion, it came together nicely. The formatting and alignment isn't quite responsive, but I'm satisfied with the basic optics and function of the game I've built.
 
 ## Features
 
