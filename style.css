@@ -1,6 +1,5 @@
 body{
     background: url(images/wallpaper.jpg);
-    /* ^https://wall.alphacoders.com/big.php?i=420126*/
     background-size: cover;
     margin: 0;
     min-height: 100%;
@@ -8,7 +7,6 @@ body{
     background-attachment: fixed;
 }
 
-/* banner elements */
 h1, h2{
     color: white;
     text-align: center;
@@ -27,7 +25,6 @@ h2{
     letter-spacing: 1.5px;
 }
 
-/* playing area elements */
 .playing-area{
     margin-left: 50px;
 }
@@ -80,7 +77,6 @@ input[type=radio] + label>img {
     text-align: center;
 }
 
-/* below is from https://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome */
 #submit:focus{
     outline: 0;
 }
